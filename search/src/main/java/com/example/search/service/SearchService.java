@@ -10,5 +10,5 @@ import java.util.List;
 @Service
 public interface SearchService {
 
-    SearchDetail getAllInfo();
+    List<SearchDetail> getAllInfo();
 }
